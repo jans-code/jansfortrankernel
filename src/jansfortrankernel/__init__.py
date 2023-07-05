@@ -1,3 +1,8 @@
-"""Init module"""
 #!/usr/bin/env python
-__version__ = "0.0.1"
+# *_* coding: utf-8 *_*
+
+"""Init module"""
+
+from importlib.metadata import version
+__version__ = version(__package__)
+
